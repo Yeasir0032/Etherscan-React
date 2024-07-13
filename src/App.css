@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  padding: 0.5rem;
 }
 
 .App-logo {
@@ -35,4 +35,55 @@
   to {
     transform: rotate(360deg);
   }
+}
+.block-header {
+  font-size: xx-large;
+  width: 100%;
+  padding: 6px;
+  background-color: aqua;
+}
+.block-header > span {
+  font-size: 36px;
+  color: purple;
+  font-weight: bold;
+  padding-left: 1rem;
+}
+.block-details {
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.block-details-item > span {
+  color: rgb(98, 0, 255);
+}
+.t-item {
+  color: maroon;
+  font-size: 24px;
+  border: 2px solid #ccc;
+  padding: 5px;
+  margin-bottom: 1px;
+  border-radius: 10px;
+}
+.data {
+  color: purple;
+  font-weight: bold;
+}
+.t-details {
+  font-size: 24px;
+}
+.t-details > button {
+  background-color: #8d66af;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.t-details > button:hover {
+  background-color: #562482;
 }
